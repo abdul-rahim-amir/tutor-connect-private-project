@@ -1,0 +1,14 @@
+.explore-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+}
+
+.explore-section h2 {
+  font-size: 3rem;
+  font-family: 'YourPreferredFont', sans-serif;
+  margin-bottom: 20px; /* Adjusted for spacing */
+}

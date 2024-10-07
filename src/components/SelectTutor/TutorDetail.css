@@ -1,0 +1,6 @@
+.fixed-section {
+    position: sticky;
+    top: 0;
+    max-width: 300px; /* Adjust as needed */
+    align-self: flex-start;
+}

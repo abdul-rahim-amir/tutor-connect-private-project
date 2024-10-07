@@ -1,0 +1,162 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Full height of the viewport */
+  width: auto;
+  background-color: #f4f4f4;
+}
+
+
+.signup-left {
+  background-color: #f8fafb;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.signup-left {
+  flex: 2; /* Less width compared to the right side */
+  background-size: cover; /* Ensure the background covers the div */
+  background-position: center; /* Center the background image */
+}
+
+
+
+
+.signup-right {
+  border: 1.5px solid #5A2E84;
+  width: 280px; /* Reduced width */
+  height: auto; /* Auto height to adjust based on content */
+  font-family: "Laila", serif;
+  font-weight: 200;
+  font-style: normal;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Increased padding for better spacing */
+  margin: 10px 40px 10px 40px; /* Uniform margin for cleaner layout */
+  font-size: 0.8rem; /* Reduce font size to fit the new dimensions */
+}
+
+
+
+
+
+/* .book-image {
+  width: 550px;
+
+  height: auto;
+  padding-left: 0px;
+} */
+
+.logo-images {
+  display: flex;
+  /* This will align children (logos) in a row */
+  justify-content: center;
+  /* This will center the logos horizontally */
+  align-items: center;
+  /* This will align logos vertically in the center */
+  gap: 10px;
+  /* Adjust the space between logos */
+}
+
+
+.logo-image1 {
+  font-family: "Petemoss", cursive;
+  font-weight: 1400;
+  font-size: 55px;
+  background: linear-gradient(to right, #D0274F, #7826E1);
+  /* Gradient applied here */
+  -webkit-background-clip: text;
+  /* For WebKit browsers */
+  background-clip: text;
+  /* Masking the background to the text */
+  color: transparent;
+  /* Make the text color transparent to show the gradient */
+  font-style: normal;
+  /* padding-top: 10px;
+  width: 100px;
+  
+  margin-bottom: 20px;
+  display: inline-block; */
+  /* Ensures the background covers only the text */
+}
+
+.logo-image2 {
+  font-size: 30px;
+  background: linear-gradient(to right, #C118C1, #693998);
+  /* Gradient applied here */
+  -webkit-background-clip: text;
+  /* For WebKit browsers */
+  background-clip: text;
+  /* Masking the background to the text */
+  color: transparent;
+  font-family: "KoHo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 10px;
+  width: 270px;
+  /* Adjust based on your preference */
+  margin-bottom: 20px;
+}
+
+.user-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+.user-profile-pic {
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%; 
+  margin-bottom: 20px; 
+}
+
+
+.login-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-option {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  /* Align items to the left */
+  gap: 10px;
+  /* Add gap between icon and text */
+  transition: background-color 0.3s;
+}
+
+.icon {
+  margin-right: 10px;
+  /* Adds space between the icon and the text */
+}
+
+h1,
+h2 {
+  color: black;
+  /* Purple color for texts */
+
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,80 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.profile-card {
+    display: block;
+    width: 100%; /* Takes full width of the container */
+    margin: 10px 0; /* Adds some spacing between cards */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    transition: transform 0.3s;
+}
+
+.profile-card:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+.profile-image {
+    border-radius: 50%;
+    border: 3px solid #f0f0f0;
+    width: 100px;
+    height: 100px;
+    margin-right: 16px; /* Adds space between image and text */
+}
+
+.text-section {
+    flex: 1; /* Allows text section to take up available space */
+    text-align: left; /* Aligns text to the left */
+}
+
+.flex.items-left {
+    display: flex;
+    align-items: center;
+    flex-direction: row; /* Aligns content horizontally */
+}
+
+.btn-online-demo {
+    background-color: #7B277F;
+    color: white;
+    border: 1px solid #7B277F;
+    border-radius: 5px;
+    padding: 10px 150px;
+
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-online-demo:hover {
+    background-color: #7B277F;
+    color: white;
+}
+
+.book-btn {
+    background-color: #6b21a8;
+    color: white;
+    padding: 10px 155px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-btn:hover {
+    background-color: #4c1d95;
+}
+
+.bg-blue-100 {
+    background-color: #ebf8ff;
+    padding: 10px 150px;
+    border-radius: 5px;
+    text-align: center; /* Centers text inside the blue background */
+}
+
+.text-blue-800 {
+    color: #1e40af;
+}

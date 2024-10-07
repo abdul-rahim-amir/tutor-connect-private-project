@@ -1,0 +1,235 @@
+.tutor-registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.gradient-section {
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(to right, #C118C1, #4D2F80);
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.form-container h2 {
+    font-size: 20px;
+    /* Adjust the font size as needed */
+    color: #8624A0;
+    /* Color for the heading */
+    margin-bottom: 30px;
+    /* Space between the heading and the first input row */
+    text-align: left;
+    /* Aligns the text to the left */
+    font-weight: 500;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* Ensures padding from top of the section */
+}
+
+h1 {
+    margin: 0;
+    font-size: 34px;
+    color: white;
+    font-weight: 500;
+}
+.tut {
+    color: white;
+}
+
+.switch-button {
+    background-color: white;
+    opacity: 70%;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    /* Ensures inline alignment of text and icon */
+    align-items: center;
+    /* Centers the text and icon vertically */
+    justify-content: center;
+    /* Centers the content horizontally */
+}
+
+
+
+.switch-icon {
+    margin-left: 5px;
+    /* Adds spacing between the text and the icon */
+}
+
+.white-section {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    position: absolute;
+    top: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150%;
+    max-width: 1200px;
+    background-color: white;
+    padding: 4.5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-row label {
+    white-space: nowrap;
+    /* Prevents the label from breaking into multiple lines */
+    padding: 0 15px;
+    /* Space around the text */
+    font-weight: bold;
+    /* Makes the OR text bold */
+}
+
+input,
+select {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-navigation {
+    display: flex;
+    justify-content: space-between;
+    /* Distributes space evenly around items */
+}
+
+.next-button,
+.back-button {
+    flex: 1;
+    /* Each button takes up equal space */
+    margin: 0 10px;
+    /* Adds margin on the sides to separate buttons */
+    padding: 10px;
+    background-color: #8624A0;
+    /* Consistent color for both buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .question-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+} */
+
+.info-note {
+    background-color: #f2e0fa;
+    padding: 15px;
+    margin-right: 20px; /* Adds space between the note and the radio buttons */
+    border-radius: 5px;
+    color: #f15858;
+    font-size: 14px;
+    flex: 1; /* Takes up the remaining space */
+    text-align: left; /* Aligns text to the left */
+}
+
+
+.radio-buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Aligns items to the start of the flex container */
+    gap: 10px;
+}
+
+.radio-buttons label {
+    margin-right: 10px;
+    color: #921b9a;
+    /* Space between label and radio buttons */
+}
+
+input[type="radio"] {
+    margin: 0 5px;
+    /* Spacing around radio buttons */
+}
+
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.subject-checkboxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px; /* Adds space between the rows and columns */
+    padding: 10px; /* Padding around the entire grid */
+}
+
+.subject-checkboxes label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;/* Space between the checkbox and the label text */
+}
+
+input[type="checkbox"] {
+    margin-right: 5px; /* Space on the right of the checkbox */
+}
+
+/* Additional styling for labels to enhance readability */
+.subject-checkboxes label {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #333; /* Color for the text */
+}
+
+/* Style to manage the overall container of the checkboxes for proper alignment */
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns checkboxes to the start of the container */
+}
+.rate-selector {
+    text-align: left;
+}

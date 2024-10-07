@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+/* Rest of your CSS */
+/* App.css */
+/* App.css */
+:root {
+  --background-color: #ffffff; /* Light mode background */
+  --text-color: #000000;       /* Light mode text */
+}
+
+[data-theme='dark'] {
+  --background-color: #333333; /* Dark mode background */
+  --text-color: #ffffff;       /* Dark mode text */
+}
+
+.App {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+.main-content {
+  margin-top: 60px; /* Add this line */
+  /* Other styles for the main content container */
+}

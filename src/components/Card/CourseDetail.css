@@ -1,0 +1,74 @@
+/* Assuming these classes match your theme */
+.bg-theme-light {
+    background-color: #f4f4f4; /* Adjust this to fit your theme */
+}
+
+.bg-primary {
+    background-color: #007bff; /* Primary color */
+}
+
+.bg-secondary {
+    background-color: #6c757d; /* Secondary color */
+}
+
+.bg-accent {
+    background-color: #28a745; /* Accent color */
+}
+
+.course-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.course-detail-item {
+    background-color: #f8f9fa;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-buttons {
+    margin-top: 20px;
+}
+
+.course-button {
+    display: block;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.course-button:hover {
+    opacity: 0.9;
+}
+
+.course-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.course-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.course-card-info {
+    padding: 16px;
+}
+
+.course-card-info h3 {
+    margin-bottom: 8px;
+}

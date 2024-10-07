@@ -1,0 +1,104 @@
+/* Add arrow styles */
+.arrow {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.next-arrow {
+    right: 10px;
+}
+
+.prev-arrow {
+    left: 10px;
+}
+
+/* Arrow appearance */
+.arrow::before {
+    content: '';
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 8px;
+    transform: rotate(45deg);
+}
+
+.next-arrow::before {
+    transform: rotate(-45deg); /* Arrow pointing to the right */
+}
+
+.prev-arrow::before {
+    transform: rotate(135deg); /* Arrow pointing to the left */
+}
+
+/* Rest of the carousel styles */
+.carousel-container {
+    width: 100%; /* Make the carousel full width */
+    max-width: 1200px; /* Set a maximum width for the carousel container */
+    margin: 0 auto; /* Center the carousel container */
+    padding: 2rem;
+    overflow: hidden; /* Hide the overflow */
+}
+
+.carousel-container img {
+    width: 382px;
+    height: 168px;
+}
+
+.slick-slider {
+    width: 100%; /* Make the slider full width */
+}
+
+.slick-list {
+    width: 100%; /* Make the list full width */
+}
+
+.slick-track {
+    width: 100%; /* Make the track full width */
+}
+
+.slick-slide {
+    width: 100%; /* Make each slide full width */
+}
+
+img {
+    max-width: 100%; /* Make the images responsive */
+    height: auto;
+    object-fit: cover; /* Scale the image to fit the container */
+}
+
+.card-container {
+    background-color: linear-gradient(to right, #E0F2F1, #C3E6E5); /* Use a gradient light green color */
+    width: 100%; /* Make the cards the same width as the images */
+    height: 200px; /* Set a fixed height for the cards */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .carousel-container {
+        padding: 1rem; /* Adjust the padding for smaller screens */
+    }
+
+    .card-container {
+        flex-direction: column; /* Stack the cards vertically on smaller screens */
+        height: auto; /* Adjust the card height for smaller screens */
+    }
+
+    .slick-slide {
+        height: auto; /* Adjust the slide height for smaller screens */
+    }
+
+    img {
+        max-width: 100%; /* Make the images responsive on smaller screens */
+        height: auto;
+    }
+}

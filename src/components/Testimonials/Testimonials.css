@@ -1,0 +1,8 @@
+/* Testimonials.css */
+.bg-gray-100 {
+    overflow-x: hidden; /* Prevents horizontal scroll during animation */
+}
+
+.bg-white {
+    backface-visibility: hidden; /* Prevents flickering during the flip */
+}
